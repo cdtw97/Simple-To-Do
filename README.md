@@ -1,17 +1,20 @@
-# Simple-To-Do App in JavaScript
+# Simple-To-Do  List App in JavaScript
 
 This repository contains the source code for a simple Todo List application implemented in two different versions: one with jQuery and another with pure JavaScript. 
 
 The functionality between the two versions is identical, but the jQuery version uses jQuery's convenience methods for DOM manipulation and event handling, making the code more concise and easier to read. The pure JavaScript version does not rely on any external libraries and provides the same functionality using only standard JavaScript DOM APIs.
 
-## Non-Persistent Data
+## Bootstrap Usage
 
-Currently, this application does not persist data. Any tasks added or completed will be lost upon refreshing the page, as all data is currently stored only in memory and not saved to a database or local storage.
-
+This application uses Bootstrap for styling. However, the JavaScript code does not rely on Bootstrap's JavaScript bundle. It's worth noting that if you've used any Bootstrap components that require JavaScript (like modals, dropdowns, etc.) in other parts of your project, then you would need Bootstrap's JavaScript bundle.
 
 ## Disclaimer
 
 This project is intended for educational and learning purposes. The implementations are simple and not optimized for large-scale applications or production environments. They serve to demonstrate the fundamental differences between using jQuery and pure JavaScript for basic DOM manipulation and event handling in a simple web application. Use this code as a starting point and feel free to expand upon it for your own projects.
+
+## Non-Persistent Data
+
+Currently, this application does not persist data. Any tasks added or completed will be lost upon refreshing the page, as all data is currently stored only in memory and not saved to a database or local storage.
 
 ## Getting Started
 
